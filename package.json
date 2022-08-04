@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "email": "node cypress/mailReportGenerator.js",
+    "email_report": "npm run email",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "author": "aditya",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "cypress": "^10.0.2"
+  },
+
+  "dependencies": {
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3"
+  }
+}
+
